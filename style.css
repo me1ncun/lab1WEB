@@ -1,0 +1,51 @@
+body{
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;    
+    background-image: url('img1.jpg');
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+table {
+    border-collapse: collapse; /* убирает двойные линии между ячейками */
+   }
+td, th {
+    padding: 3px; /* поля вокруг содержимого таблицы */
+    border: 1px solid black; /* параметры рамки */
+}
+span{
+    width: 50px;
+    height: 100px;
+    display: inline-block;
+}
+h1{
+    text-align: center;
+}
+.logo{
+    vertical-align: middle; /*выравнивание по вертикали по середине*/
+    padding: 10px;
+}
+nav{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+div{
+    display:inline-block;
+}
+
+.center-img{
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration:underline; /* подчеркивание текста*/
+
+}
+
+.center {
+    margin-left:auto; 
+    margin-right:auto;
+}
